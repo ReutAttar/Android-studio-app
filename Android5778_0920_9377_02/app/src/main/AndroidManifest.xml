@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.owner.android5778_0920_9377_02">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_launcher"
+        android:label="@string/take_go"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".controller.MainActivity"
+            android:label="@string/take_go"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controller.AddUserActivity"
+            android:label="Add User" />
+        <activity
+            android:name=".controller.LoginActivity"
+            android:label="@string/title_activity_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".controller.MyIntentService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".controller.MyReceiver"
+            android:enabled="false"
+            android:exported="false"></receiver>
+    </application>
+
+</manifest>

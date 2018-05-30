@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Android5778_0920_9377_01</string>
+    <string name="welcome">Welcome to Take&amp;Go</string>
+    <string name="id">id</string>
+    <string name="enter">Enter</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="add_user">Add User</string>
+    <string name="code_model">Code Model</string>
+    <string name="company_name">Company Name</string>
+    <string name="model_name">Model Name</string>
+    <string name="engine_capacity">Engine Capacity</string>
+    <string name="gear_box">Gear Box:</string>
+    <string name="seats_number">Seats Number:</string>
+    <string name="branch_parking_number">Branch Parking\n Number:</string>
+    <string name="car_model">Car Model</string>
+    <string name="my_kilometers">Kilometers</string>
+    <string name="car_number">Car Number</string>
+    <string name="branch_number">Branch Number:</string>
+    <string name="parking_spaces">Parking Spaces:</string>
+    <string name="street_number">Street Number:</string>
+    <string name="city">City</string>
+    <string name="color">Color:</string>
+    <string name="fuel_type">Fuel Type:</string>
+    <string name="car_cost">Car Cost</string>
+
+</resources>

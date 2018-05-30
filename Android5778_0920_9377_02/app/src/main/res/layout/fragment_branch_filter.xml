@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.owner.android5778_0920_9377_02.controller.BranchFilterFragment">
+
+    <SearchView
+        android:id="@+id/filterSearchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </SearchView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Our branches:"
+    android:textSize="25sp"
+    android:fontFamily="serif"
+    android:textColor="#084C73"
+    />
+
+    <ExpandableListView
+        android:id="@+id/branchesExpandableList"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:listSelector="#E8E8E8"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All available cars in this branch:"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textColor="#084C73"
+        />
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+       android:id="@+id/carByBranchExpandableList"
+        android:listSelector="#E8E8E8"/>
+
+
+</LinearLayout>

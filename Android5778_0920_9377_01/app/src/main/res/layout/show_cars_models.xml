@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ModelNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/model_name"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/CompanyNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/company_name"
+            android:textSize="24sp"/>
+
+
+    <TextView
+        android:id="@+id/EngineCapacityTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/engine_capacity"
+        android:textSize="24sp" />
+
+    <TextView
+            android:id="@+id/CodeModelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/code_model"
+            android:textSize="24sp" />
+
+
+</TextView>

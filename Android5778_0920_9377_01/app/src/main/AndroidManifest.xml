@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.inbal.android5778_0920_9377_01">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cars_icon"
+        android:label="@string/welcome"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".controller.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.CheckUserActivity"
+            android:label="Check User" />
+        <activity
+            android:name=".controller.AddUserActivity"
+            android:label="Add User" />
+        <activity
+            android:name=".controller.AllUsersListActivity"
+            android:label="Get All Users" />
+        <activity
+            android:name=".controller.AddCarModelActivity"
+            android:label="Add Car Model" />
+        <activity
+            android:name=".controller.AddCarActivity"
+            android:label="Add Car" />
+        <activity android:name=".controller.AllCarsListActivity" />
+        <activity android:name=".controller.AllCarsModelsActivity" />
+        <activity android:name=".controller.AllBranchesListActivity" />
+    </application>
+
+</manifest>
